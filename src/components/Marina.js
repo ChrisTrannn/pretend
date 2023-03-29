@@ -13,27 +13,30 @@ const Marina = () => {
             <div className='cardContainer'>
                 <div className='card'>
                     <h4>Science Concepts</h4>
-                    <p>When you go to the beach, you can learn about erosion. Erosion is the process of the waves and currents slowly wearing away the sand and rocks on the beach.
-                    The ocean is made up of saltwater, which is denser than freshwater. This is why you can float more easily in the ocean than in a swimming pool.
+                    <p>Buoyancy: Learn about the science behind how boats float and how different types of boats stay afloat.
+                    Tides: Understand how tides work and how they affect the water level in the marina.
+                    Marine Ecosystems: Explore the different types of marine life that can be found in the marina and learn about their habitats and behaviors.
                     </p>
                 </div>
                 <div className='card'>
                     <h4>Museum Activities</h4>
-                    <p>Visit the "Beach Ecosystem" exhibit and explore the different habitats found along the beach, such as sand dunes, tide pools, and seagrass beds.
-                    Participate in a beach cleanup activity with other visitors to learn about the impact of pollution on marine life and how you can help protect the ocean.
+                    <p>Boat Building: Provide materials and instructions for visitors to build their own mini boats and test them out in a small water tank.
+                    Touch Tank: Set up a touch tank with various marine life that can be found in the marina for visitors to interact with and learn from.
+                    Navigation Challenge: Have visitors use a map and compass to navigate a small obstacle course set up in the museum.
                     </p>
                 </div>
                 <div className='card'>
                     <h4>Fun Facts</h4>
-                    <p>The world's largest beach is Praia do Cassino in Brazil, which is over 150 miles long.
-                    Sand on the beach is made up of tiny particles of rocks, shells, and coral that have been broken down by weathering and erosion.
-                    The waves at the beach are caused by wind blowing over the surface of the ocean, creating ripples that eventually grow into waves.
+                    <p>Did you know that the word "marina" comes from the Latin word "mare", meaning "sea"?
+                    Many types of fish and marine life use marinas as a safe haven from predators, making them an important part of the marine ecosystem.
+                    Marinas can also serve as a hub for recreational activities such as boating, fishing, and water sports.
                     </p>
                 </div>
                 <div className='card'>
                     <h4>Activities at Home</h4>
-                    <p>Collect seashells from the beach and use them to create a seashell mosaic or necklace.
-                    Make your own ocean in a bottle by filling a clear plastic bottle with water, adding blue food coloring and a drop of vegetable oil, and shaking to create waves.
+                    <p>Build a Boat: Provide instructions and materials for visitors to build a small boat at home using recycled materials.
+                    Marine Life Art: Encourage visitors to create artwork inspired by the marine life they may have seen in the touch tank or while visiting the marina.
+                    Tide Experiment: Have visitors conduct a simple experiment at home to understand the science behind tides. They can fill a small container with water and use a flashlight to simulate the sun, observing how the water level rises and falls.
                     </p>
                 </div>
             </div>
