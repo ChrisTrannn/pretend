@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import App from "../App";
 import Marina from "./Marina";
 import Beach from "./Beach";
@@ -8,7 +8,7 @@ import TraderJoes from "./TraderJoes";
 
 const RouteSwitch = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/marina" element={<Marina />} />
@@ -16,7 +16,7 @@ const RouteSwitch = () => {
         <Route path="/construction" element={<Construction />} />
         <Route path="/traderjoes" element={<TraderJoes />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
