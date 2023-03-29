@@ -1,12 +1,15 @@
 import Navbar from './Navbar'
 import constructionGIF from '../assets/manof.gif'
+import pcCharacter from '../assets/logos/pcCharacter.png'
 
 const Construction = () => {
     return (
         <div>
-            <h3>Welcome to the Construction Zone</h3>
+            <div className='title'>
+                <h3>Welcome to the Construction</h3>
+                <img src={pcCharacter}></img>
+            </div>
             <img src={constructionGIF}></img>
-            <h4>Learning Objectives</h4>
             <div className='cardContainer'>
                 <div className='card'>
                     <h4>Science Concepts</h4>

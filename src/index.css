@@ -13,14 +13,48 @@ code {
 }
 
 /* my styling */
-.card {
-  border: 1px solid gray;
-  border-radius: 0.5em;
-  margin: 0.8em;
-  padding: 0.5em;
+html {
+  background-color: #FFF3F3;
+  font-family: 'Inter';
+  color: #51504C;
 }
 
+/* title */
+.title {
+  display: flex;
+  font-size: 100%;
+  font-weight: bolder;
+  margin-left: 6%;
+  margin-bottom: 10px;
+
+}
+
+.title img {
+  width: 2.5em;
+  margin-left: 0px;
+}
+
+/* image of gif */
 img {
-  border-radius: 2em;
-  width: 20em;
+  border-radius: 15px;
+  width: 90%;
+  
+  /* center */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* card styling */
+.card {
+  margin: 1.2em;
+  padding: 0.9em;
+  background-color: #545EE2;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px grey;
+}
+
+.cardContainer {
+  margin-bottom: 4em;
 }
