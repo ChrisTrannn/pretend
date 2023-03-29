@@ -9,7 +9,7 @@ const TraderJoes = () => {
                 <h3>Welcome to Trader Joes</h3>
                 <img src={pcCharacter}></img>
             </div>
-            <img className="beachgif" src={traderjoesGIF}></img>
+            <img className="traderjoesgif" src={traderjoesGIF}></img>
             <div className='cardContainer'>
                 <div className='card'>
                     <h4>Science Concepts</h4>
