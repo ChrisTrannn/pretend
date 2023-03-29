@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    margin: 0.4em;
+
+    /*locks navbar on the bottom*/
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+}
+
+.navbar button {
+    flex: 1;
+    border: 0px;
+    margin: 0.4em;
+    padding: 1em;
+}
+
+button {
+    background-color: rgb(136, 188, 234);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: gray;
+    font-size: 0.7em;
+    font-weight: bold;
+}
