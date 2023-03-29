@@ -36,7 +36,7 @@ const Marina = () => {
                     Make your own ocean in a bottle by filling a clear plastic bottle with water, adding blue food coloring and a drop of vegetable oil, and shaking to create waves.
                     </p>
                 </div>
-            </div>Marina Page
+            </div>
             <Navbar/>
         </div>
     )
