@@ -10,11 +10,11 @@ const RouteSwitch = () => {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="../" element={<App />} />
-        <Route path="../marina" element={<Marina />} />
-        <Route path="../beach" element={<Beach />} />
-        <Route path="../construction" element={<Construction />} />
-        <Route path="../traderjoes" element={<TraderJoes />} />
+        <Route path="/" element={<App />} />
+        <Route path="/marina" element={<Marina />} />
+        <Route path="/beach" element={<Beach />} />
+        <Route path="/construction" element={<Construction />} />
+        <Route path="/traderjoes" element={<TraderJoes />} />
       </Routes>
     </BrowserRouter>
   );
