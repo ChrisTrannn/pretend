@@ -9,7 +9,7 @@ const Construction = () => {
                 <h3>Welcome to the Construction</h3>
                 <img src={pcCharacter}></img>
             </div>
-            <img src={constructionGIF}></img>
+            <img className="constructiongif" src={constructionGIF}></img>
             <div className='cardContainer'>
                 <div className='card'>
                     <h4>Science Concepts</h4>
